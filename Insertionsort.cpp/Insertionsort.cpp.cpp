@@ -35,6 +35,5 @@ void insertionsort() {                   //Procedure Insertionsort
     for (int i = 1; i < n; i++) {                     // 1. Looping dengan i dimulai dari 1 hingga n-1
         temp = arr[i];                                // 2. Simpan nilai arr[i] ke variable sementara temp
         j = i - 1;                                    // 3. Setting nilai j sama dengan i - 1
-        j = i - 1;                                      // 3. Setting nilai j sama dengan i - 1
         while (j >= 0 && arr[j] > temp)                 // 4. Looping while dimana nilai j lebih besar sama dengan 0 dan
             // ar[j] lebih besar daripada temp
